@@ -50,7 +50,7 @@ public class ToscaPlanToSpecTransformer implements PlanToSpecTransformer {
 
     private static final Logger log = LoggerFactory.getLogger(ToscaPlanToSpecTransformer.class);
     
-    ConfigKey<Alien4CloudToscaPlatform> TOSCA_ALIEN_PLATFORM = ConfigKeys.builder(Alien4CloudToscaPlatform.class)
+    public static fiConfigKey<Alien4CloudToscaPlatform> TOSCA_ALIEN_PLATFORM = ConfigKeys.builder(Alien4CloudToscaPlatform.class)
         .name("tosca.a4c.platform").build();
     
     private ManagementContext mgmt;
